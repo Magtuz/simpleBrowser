@@ -1,2 +1,0 @@
-# simpleBrowser
-test project

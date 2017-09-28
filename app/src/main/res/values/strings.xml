@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SimpleBrowser</string>
+    <string name="search_button_text">Download</string>
+    <string name="search_empty_text">Input field can not be empty</string>
+    <string name="search_wrong_format">Wrong url format</string>
+    <string name="no_connection">No internet connection</string>
+</resources>

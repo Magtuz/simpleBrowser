@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    tools:context="com.magtuz.simplebrowser.ui.fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_logo" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/logo"
+        android:layout_marginTop="33dp"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/text_input"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_toStartOf="@+id/search_button"
+            android:background="@drawable/grey_rounded_edittext"
+            android:gravity="center_vertical"
+            android:inputType="textUri"
+            android:lines="1"
+            android:paddingEnd="8dp"
+            android:paddingStart="8dp"
+            android:textColor="@color/colorDarkGrey"
+            android:textColorHint="@color/colorGrey"
+            android:textCursorDrawable="@null"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/search_button"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:minHeight="0dp"
+            android:minWidth="0dp"
+            android:text="@string/search_button_text"
+            android:textAllCaps="false"
+            android:textSize="14sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
